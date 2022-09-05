@@ -4,25 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
-    tools:context=".Auth.Activity.TeacherLogIn">
+    tools:context=".Auth.Activity.AdminLogIn">
 
-    <ImageView
-        android:layout_width="45dp"
-        android:layout_height="9dp"
-        android:src="@drawable/scribbletwo"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.218"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.112" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/alata"
-        android:text="Lets Log You In"
+        android:text="Welcome Admin"
         android:textColor="@color/black"
         android:textSize="24sp"
         android:textStyle="bold"
@@ -101,4 +90,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.481" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

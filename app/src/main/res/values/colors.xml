@@ -11,4 +11,7 @@
     <!-- Costume Colours -->
 
     <color name="transparent">#00000000</color>
+    <color name="lightGrey">#7B7B7B</color>
+    <color name="armyGreen">#00533A</color>
+    <color name="lightArmyGreen">#84A69C</color>
 </resources>
