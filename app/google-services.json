@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "303746475958",
+    "project_id": "student-management-system-new",
+    "storage_bucket": "student-management-system-new.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:303746475958:android:bac9cff6d2ffcb031f0317",
+        "android_client_info": {
+          "package_name": "com.example.student_management_system"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "303746475958-7v2v7i3seg7m8heqhmj6h1ulhhk824pe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2yP735t-9xcLgxu_XpUmhiMUkPGw4p7I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "303746475958-7v2v7i3seg7m8heqhmj6h1ulhhk824pe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

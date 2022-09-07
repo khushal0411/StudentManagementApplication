@@ -30,6 +30,7 @@ class IntroScreen : AppCompatActivity() {
 
             val intent = Intent(this, StudentLogIn::class.java)
             startActivity(intent)
+            finish()
 
         }
 
@@ -37,6 +38,7 @@ class IntroScreen : AppCompatActivity() {
 
             val intent = Intent(this, TeacherLogIn::class.java)
             startActivity(intent)
+            finish()
 
         }
 
