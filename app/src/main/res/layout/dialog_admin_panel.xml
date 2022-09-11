@@ -21,22 +21,16 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal">
+                android:orientation="vertical">
 
-                <ImageView
-                    android:layout_width="35dp"
-                    android:layout_height="35dp"
-                    android:layout_gravity="center"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginTop="5dp"
-                    android:src="@drawable/ic_baseline_cancel_24" />
+
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:layout_marginLeft="85dp"
-                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
                     android:text="Admin Panel"
                     android:textAlignment="center"
 
@@ -97,6 +91,7 @@
                 android:layout_height="45dp">
 
             <LinearLayout
+                android:id="@+id/regCard"
                 android:layout_width="match_parent"
                 android:layout_height="45dp"
                 android:background="@color/white"
@@ -133,6 +128,7 @@
                     <androidx.cardview.widget.CardView
                         android:layout_width="25dp"
                         android:layout_height="25dp"
+                        app:cardElevation="0dp"
                         app:cardBackgroundColor="@color/white"
                         android:layout_gravity="right"
                         app:cardCornerRadius="100dp"
@@ -154,9 +150,11 @@
 
 
             <LinearLayout
+                android:id="@+id/regOptions"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@color/white"
+                android:visibility="visible"
                 android:orientation="vertical">
 
 
@@ -165,6 +163,7 @@
                     android:layout_height="40dp">
 
                     <LinearLayout
+                        android:id="@+id/regNewStu"
                         android:background="@color/white"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"

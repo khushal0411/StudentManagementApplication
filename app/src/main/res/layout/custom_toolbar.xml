@@ -4,22 +4,20 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         xmlns:app="http://schemas.android.com/apk/res-auto">
-
+        <!--android:backgroundTint="?attr/appBackground"-->
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/tb_main"
-            android:layout_marginTop="10dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
-            app:titleTextColor="@color/black"
+            app:titleTextColor="@color/white"
             app:subtitleTextColor="@color/white"
-            android:backgroundTint="@color/toolbar"
+            android:background="@color/toolbar"
+
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             app:popupTheme="@style/Theme.Student_Management_System"
-            android:background="@drawable/drawablebtn">
+            />
 
 
-        </androidx.appcompat.widget.Toolbar>
+
 
     </LinearLayout>
 </layout>
