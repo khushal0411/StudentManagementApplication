@@ -134,18 +134,7 @@
                 android:textColor="@color/armyGreen"
                 android:textSize="20sp"/>
 
-            <androidx.cardview.widget.CardView
-                android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:layout_marginLeft="10dp"
-                android:layout_marginTop="10dp"
-                android:layout_marginRight="10dp"
-                android:text="Class"
-                android:background="@drawable/drawableet"
-                android:textAllCaps="false"
-                android:textColor="@color/lightArmyGreen"
 
-                />
 
             <EditText
                 android:id="@+id/et_class"
