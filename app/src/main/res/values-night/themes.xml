@@ -18,6 +18,8 @@
 
         <item name="android:windowTranslucentStatus">true</item>
 
+        <!--<item name="appToolbarBackground">@color/dark_toolbar</item>
+        <item name="appWindowBackground_dialog">@color/white</item> -->
 
         <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
     </style>

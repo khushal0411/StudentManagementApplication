@@ -14,4 +14,9 @@
     <color name="lightGrey">#7B7B7B</color>
     <color name="armyGreen">#00533A</color>
     <color name="lightArmyGreen">#84A69C</color>
+
+
+    <color name="toolbar">#6BAC99</color>
+    <color name="dark_toolbar">#2D3C37</color>
+
 </resources>

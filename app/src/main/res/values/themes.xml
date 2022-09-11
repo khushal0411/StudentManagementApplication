@@ -21,5 +21,8 @@
 
         <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
 
+        <!--<item name="appToolbarBackground">@color/light_toolbar</item>
+        <item name="appWindowBackground_dialog">@color/white</item>-->
+
     </style>
 </resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--<attr name="appToolbarBackground" format="color"/> -->
+    <attr name="appWindowBackground_dialog" format="color"/>
+
+</resources>

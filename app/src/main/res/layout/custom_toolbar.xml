@@ -7,12 +7,19 @@
 
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/tb_main"
-            app:titleTextColor="@color/white"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            app:titleTextColor="@color/black"
             app:subtitleTextColor="@color/white"
+            android:backgroundTint="@color/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             app:popupTheme="@style/Theme.Student_Management_System"
-            android:background="@color/black"/>
+            android:background="@drawable/drawablebtn">
+
+
+        </androidx.appcompat.widget.Toolbar>
 
     </LinearLayout>
 </layout>
